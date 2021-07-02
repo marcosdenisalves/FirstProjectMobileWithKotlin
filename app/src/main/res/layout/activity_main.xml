@@ -47,7 +47,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextAttendStudent2"
+        android:id="@+id/editTextAttendStudent"
         android:layout_width="210dp"
         android:layout_height="64dp"
         android:layout_marginTop="20dp"
@@ -66,7 +66,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/calculateBtn"
         android:layout_width="210dp"
 
         android:layout_height="wrap_content"
@@ -77,20 +77,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAttendStudent2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAttendStudent"
         app:layout_constraintVertical_bias="0.205" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewResult"
         android:layout_width="210dp"
         android:layout_height="100dp"
         android:gravity="center"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintTop_toBottomOf="@+id/calculateBtn"
+        app:layout_constraintVertical_bias="0.216" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
